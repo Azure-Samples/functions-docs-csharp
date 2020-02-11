@@ -14,5 +14,5 @@ The following samples are available in this repo.
 
 | Name | Description  | Trigger | Input | Output |
 |------|--------------|---------|-------|--------|
-| [HttpTriggerDemo](blob/master/HttpTriggerDemo.cs) | Triggered by an HTTP request. | Http | N/A | Http |
-| [HttpTriggerRoutes](blob/master/HttpTriggerRoutes.cs) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
+| [HttpTriggerDemo](HttpTriggerDemo.cs) | Triggered by an HTTP request. | Http | N/A | Http |
+| [HttpTriggerRoutes](HttpTriggerRoutes.cs) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
