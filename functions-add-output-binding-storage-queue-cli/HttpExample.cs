@@ -13,7 +13,7 @@ namespace My.Function
 {
     public static class HttpExample
     {
-        [FunctionName("HttpTrigger")]
+        [FunctionName("HttpExample")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, 
             [Queue("outqueue"),StorageAccount("AzureWebJobsStorage")] ICollector<string> msg, ILogger log)
