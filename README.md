@@ -14,5 +14,5 @@ The following samples are available in this repo.
 
 | Name | Description  | Trigger | Input | Output |
 |------|--------------|---------|-------|--------|
-| [HttpTriggerDemo](https://github.com/craigshoemaker/azure-functions-binding-csharp/blob/master/HttpTriggerDemo.cs) | Triggered by an HTTP request. | Http | N/A | Http |
-| [HttpTriggerRoutes](https://github.com/craigshoemaker/azure-functions-binding-csharp/blob/master/HttpTriggerRoutes.cs) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
+| [HttpTriggerDemo](https://https://github.com/Azure-Samples/functions-docs-csharp/blob/master/HttpTriggerDemo.cs) | Triggered by an HTTP request. | Http | N/A | Http |
+| [HttpTriggerRoutes](https://https://github.com/Azure-Samples/functions-docs-csharp/blob/master/HttpTriggerRoutes.cs) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
