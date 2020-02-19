@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace http_trigger_template
+namespace LocalFunctionProj
 {
     public static class HttpExample
     {

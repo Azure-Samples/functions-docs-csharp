@@ -7,9 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-using Microsoft.Azure.WebJobs.Extensions.Storage;
-
-namespace My.Function
+namespace LocalFunctionProj
 {
     public static class HttpExample
     {
