@@ -4,6 +4,10 @@
 # Azure Functions localsettings file
 local.settings.json
 
+# publishing profiles
+*.pubxml
+*.profile.arm.json
+
 # User-specific files
 *.suo
 *.user
