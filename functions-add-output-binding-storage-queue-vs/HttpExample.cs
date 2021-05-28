@@ -12,7 +12,6 @@ namespace LocalFunctionProj
     public static class HttpExample
     {
         [FunctionName("HttpExample")]
-        [Disable]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, 
             [Queue("outqueue"),StorageAccount("AzureWebJobsStorage")] ICollector<string> msg, 
