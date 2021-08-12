@@ -24,6 +24,7 @@ namespace functions_add_output_binding_storage_queue_isolated
             // Return a response to both HTTP trigger and storage output binding.
             return new MultiResponse()
             {
+                // Write a single message.
                 Messages = new string[] { message },
                 HttpResponse = response
             };
@@ -31,8 +32,7 @@ namespace functions_add_output_binding_storage_queue_isolated
     }
     public class MultiResponse
     {
-        // Supports writing to both storage output binding and HTTP trigger responses.
-        [QueueOutput("output-queue")]
+        [QueueOutput("outqueue",Connection = "AzureWebJobsStorage")]
         public string[] Messages { get; set; }
         public HttpResponseData HttpResponse { get; set; }
     }
