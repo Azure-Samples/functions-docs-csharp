@@ -28,7 +28,7 @@ namespace LocalFunctionProj
             if (!string.IsNullOrEmpty(name))
             {
                 // Add a message to the output collection.
-                msg.Add(string.Format("Name passed to the function: {0}", name));
+                msg.Add(name);
             }
             return name != null
                 ? (ActionResult)new OkObjectResult($"Hello, {name}")
