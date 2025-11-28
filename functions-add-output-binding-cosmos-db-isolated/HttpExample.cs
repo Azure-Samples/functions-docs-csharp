@@ -36,7 +36,7 @@ namespace My.Functions
     public class MultiResponse
     {
         [CosmosDBOutput("my-database", "my-container",
-            ConnectionStringSetting = "CosmosDbConnectionString", CreateIfNotExists = true)]
+            Connection = "CosmosDbConnectionSetting", CreateIfNotExists = true)]
         public MyDocument Document { get; set; }
         public HttpResponseData HttpResponse { get; set; }
     }
