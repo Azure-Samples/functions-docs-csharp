@@ -14,9 +14,9 @@ namespace My.Functions
     {
         [FunctionName("HttpExample")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
-            [CosmosDB(databaseName: "my-database", collectionName: "my-container",
-                ConnectionStringSetting = "CosmosDbConnectionString"
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [CosmosDB(databaseName: "my-database", containerName: "my-container",
+                Connection = "CosmosDbConnectionSetting"
                 )]IAsyncCollector<dynamic> documentsOut,
             ILogger log)
         {
