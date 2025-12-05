@@ -266,3 +266,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+.github/workflows/master_glengatest-deploy-actions.yml
+functions-add-output-binding-storage-queue-isolated/functions-add-output-binding-storage-queue-isolated.sln
